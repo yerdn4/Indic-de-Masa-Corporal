@@ -51,7 +51,7 @@ class Program
 
         while (!double.TryParse(entrada, NumberStyles.Any, CultureInfo.InvariantCulture, out valor) || valor <= 0)
         {
-            Console.WriteLine("⚠️ Error: Ingresaste un valor no válido.");
+            Console.WriteLine("Error: Ingresaste un valor no válido.");
             Console.Write(mensaje);
             entrada = Console.ReadLine();
         }
